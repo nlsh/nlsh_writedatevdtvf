@@ -1,0 +1,18 @@
+{
+	"name" : "Nils Heinold",
+	"description" : "Erzeugt eine DATEV DTVF - Standard Datei zum Einlesen über die Stapelverarbeitung in das Rechnungswesenprogramm der DATEV e.G.",
+	"type" : "class",
+	"license" : "LGPL-3.0+",
+	"support" : {
+		"email" : "github@nilsheinold.de"
+	},
+	"autoload" : {
+		"classmap" : [
+			"src/classes"
+		]
+	},
+	"require" : {
+		"phpunit/php-code-coverage" : "^6"
+	},
+	"minimum-stability" : "stable"
+}
